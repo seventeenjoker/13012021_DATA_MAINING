@@ -1,0 +1,468 @@
+{
+  "name": "Товары для детей",
+  "code": "523",
+  "products": [
+    {
+      "id": 10333,
+      "name": "СВЯТ.ИСТ.Вода СВЕТЛЯЧ.пит.дет.н/г 0,33л",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3684861.jpg",
+      "plu": 3684861,
+      "promo": {
+        "id": 1152524414,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-06",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 23
+      },
+      "current_prices": {
+        "price_reg__min": 19.99,
+        "price_promo__min": 15.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42710,
+      "name": "М/М Биотвор.с перс.дет.обог.4,2% 100г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3697379.jpg",
+      "plu": 3697379,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 22.99,
+        "price_promo__min": 19.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42711,
+      "name": "М/М Биотвор.с клуб.дет.обог.4,2% 100г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3697380.jpg",
+      "plu": 3697380,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 22.99,
+        "price_promo__min": 19.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42745,
+      "name": "БЗМЖ биотворог д/питания детей дошк и шк возраста, обогащенный пробиот микроорг Howaru с малиной мдж 4,2% 100 г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/4007833.jpg",
+      "plu": 4007833,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 22.99,
+        "price_promo__min": 19.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42772,
+      "name": "БЗМЖ Творог с бананом и яблоком \"nature\" 3,5% для детей 95г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/4087611.jpg",
+      "plu": 4087611,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 32.99,
+        "price_promo__min": 26.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42773,
+      "name": "БЗМЖ Йогурт с бананом и клубникой для питания детей NATURE 3,5% 70г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/4087820.jpg",
+      "plu": 4087820,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 37.99,
+        "price_promo__min": 31.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42687,
+      "name": "Ряженка Агуша, клубника, 2,9%, 200 г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3636366.jpg",
+      "plu": 3636366,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 42.49,
+        "price_promo__min": 33.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42761,
+      "name": "БЗМЖ Йогурт питьевой обогащ.кальцием и вит.D3, со вкус.Клубничного пломбира, д/пит.дет.дошк/школ.возр.2,8% 190г Ст.ГЛ6",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/4066181.jpg",
+      "plu": 4066181,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 49.99,
+        "price_promo__min": 41.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 10246,
+      "name": "ФР-Н.Морс из клюк/черн/вишн.д/д пит.0,5л",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3416973.jpg",
+      "plu": 3416973,
+      "promo": {
+        "id": 1152524414,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-06",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 23
+      },
+      "current_prices": {
+        "price_reg__min": 46.9,
+        "price_promo__min": 44.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 10253,
+      "name": "Мясное пюре Агуша, цыпленок-говядина, 7,7%, 80 г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3422803.jpg",
+      "plu": 3422803,
+      "promo": {
+        "id": 1152524414,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-06",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 23
+      },
+      "current_prices": {
+        "price_reg__min": 45.9,
+        "price_promo__min": 44.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 10295,
+      "name": "ФрутоНяня 0,5л Нектар яблочно-вишневый осветленный",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3626873.jpg",
+      "plu": 3626873,
+      "promo": {
+        "id": 1152524414,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-06",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 23
+      },
+      "current_prices": {
+        "price_reg__min": 46.9,
+        "price_promo__min": 44.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 19491,
+      "name": "Консервы Тема, цыпленок, 100 г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3685340.jpg",
+      "plu": 3685340,
+      "promo": {
+        "id": 1155702002,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 51.99,
+        "price_promo__min": 49.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 10285,
+      "name": "Вода Honey kid, Черноголовская, питьевая, 5 л",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3608729.jpg",
+      "plu": 3608729,
+      "promo": {
+        "id": 1152524414,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-06",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 23
+      },
+      "current_prices": {
+        "price_reg__min": 64.9,
+        "price_promo__min": 55.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 10204,
+      "name": "Крем Johnsons Baby, увлажнение, 100 мл",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/2159633.jpg",
+      "plu": 2159633,
+      "promo": {
+        "id": 1152524414,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-06",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 23
+      },
+      "current_prices": {
+        "price_reg__min": 141.0,
+        "price_promo__min": 139.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 10384,
+      "name": "HUGGIES (ХАГГИС) Трусики-подгузники мальчикам и девочкам р5,13-17кг, 26шт",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3983613.jpg",
+      "plu": 3983613,
+      "promo": {
+        "id": 1152524414,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-06",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 23
+      },
+      "current_prices": {
+        "price_reg__min": 739.99,
+        "price_promo__min": 479.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 10385,
+      "name": "HUGGIES (ХАГГИС) Трусики-подгузники мальчикам и девочкам р4,9-14кг, 30шт",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3983632.jpg",
+      "plu": 3983632,
+      "promo": {
+        "id": 1152524414,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-06",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 23
+      },
+      "current_prices": {
+        "price_reg__min": 739.99,
+        "price_promo__min": 479.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 19280,
+      "name": "РAM.Подг.ACTIVE BABY DRY р4 70шт",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3159433.jpg",
+      "plu": 3159433,
+      "promo": {
+        "id": 1155702002,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 1224.0,
+        "price_promo__min": 699.9
+      },
+      "store_name": null
+    },
+    {
+      "id": 19281,
+      "name": "РAM.Подг.ACTIVE BABY DRY р3 82шт",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3159435.jpg",
+      "plu": 3159435,
+      "promo": {
+        "id": 1155702002,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 1239.0,
+        "price_promo__min": 699.9
+      },
+      "store_name": null
+    },
+    {
+      "id": 19362,
+      "name": "Трусики-подгузники Pampers, Maxi, 52 шт.",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3447848.jpg",
+      "plu": 3447848,
+      "promo": {
+        "id": 1155702002,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 1119.0,
+        "price_promo__min": 699.9
+      },
+      "store_name": null
+    },
+    {
+      "id": 19363,
+      "name": "Трусики-подгузники Pampers, Junior, 48 шт.",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3447849.jpg",
+      "plu": 3447849,
+      "promo": {
+        "id": 1155702002,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 1119.0,
+        "price_promo__min": 699.9
+      },
+      "store_name": null
+    },
+    {
+      "id": 19364,
+      "name": "PAM.Подгуз-тр.PAN.EXТ.LAR.дж.уп.44шт",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3447850.jpg",
+      "plu": 3447850,
+      "promo": {
+        "id": 1155702002,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 1119.99,
+        "price_promo__min": 699.9
+      },
+      "store_name": null
+    },
+    {
+      "id": 19482,
+      "name": "PAMPERS Подг.ACT.BABY-DRY 11-16 р5 60шт",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3680533.jpg",
+      "plu": 3680533,
+      "promo": {
+        "id": 1155702002,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 1224.0,
+        "price_promo__min": 699.9
+      },
+      "store_name": null
+    }
+  ]
+}
