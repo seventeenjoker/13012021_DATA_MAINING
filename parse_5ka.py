@@ -37,7 +37,7 @@ class Parse5ka:
         self.result_path = result_path
 
     @staticmethod
-    def __get_response(url: str, *args, **kwargs) -> requests.Response:
+    def _get_response(url: str, *args, **kwargs) -> requests.Response:
         while True:
             try:
                 response = requests.get(url, *args, **kwargs)
