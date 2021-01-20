@@ -1,0 +1,216 @@
+{
+  "name": "Товары для животных",
+  "code": "575",
+  "products": [
+    {
+      "id": 18642,
+      "name": "Корм консервированный полнорационный Pedigree для взрослых собак миниатюрных пород паштет с говядиной, 80г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/4060059.jpg",
+      "plu": 4060059,
+      "promo": {
+        "id": 1155701983,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 19.99,
+        "price_promo__min": 16.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 18643,
+      "name": "Корм консервированный полнорационный Pedigree для взрослых собак миниатюрных пород паштет с курицей, 80г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/4061858.jpg",
+      "plu": 4061858,
+      "promo": {
+        "id": 1155701983,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 19.99,
+        "price_promo__min": 16.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 18644,
+      "name": "Корм консервированный полнорационный Pedigree для взрослых собак всех пород с говядиной в соусе, 85г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/4066615.jpg",
+      "plu": 4066615,
+      "promo": {
+        "id": 1155701983,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 17.99,
+        "price_promo__min": 16.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 18645,
+      "name": "Корм консервированный полнорационный Pedigree для взрослых собак всех пород с говядиной и ягненком в соусе, 85г",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/4066619.jpg",
+      "plu": 4066619,
+      "promo": {
+        "id": 1155701983,
+        "date_begin": "2021-01-12",
+        "date_end": "2021-01-18",
+        "type": "",
+        "description": "",
+        "kind": "Z001",
+        "expired_at": 4
+      },
+      "current_prices": {
+        "price_reg__min": 17.99,
+        "price_promo__min": 16.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42732,
+      "name": "Katty Корм консервированный полнорационный для кошек с говядиной в соусе, ж/б 415 гр.",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3983129.jpg",
+      "plu": 3983129,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 36.99,
+        "price_promo__min": 29.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42733,
+      "name": "Katty Корм консервированный полнорационный для кошек с кроликом в соусе, ж/б 415 гр.",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3983130.jpg",
+      "plu": 3983130,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 36.99,
+        "price_promo__min": 29.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42734,
+      "name": "Katty Корм консервированный полнорационный для кошек с курицей в соусе, ж/б 415 гр.",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3983131.jpg",
+      "plu": 3983131,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 36.99,
+        "price_promo__min": 29.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42735,
+      "name": "Katty Корм консервированный полнорационный для кошек с печенью в соусе, ж/б 415 гр.",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3983132.jpg",
+      "plu": 3983132,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 36.99,
+        "price_promo__min": 29.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42655,
+      "name": "Корм для маленьких собак Purina one, курица рис, 1,5 кг",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3445958.jpg",
+      "plu": 3445958,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 349.99,
+        "price_promo__min": 299.99
+      },
+      "store_name": null
+    },
+    {
+      "id": 42660,
+      "name": "Корм для кошек Purina One, индейка, 1,5 кг",
+      "mech": null,
+      "img_link": "https://media.5ka.ru/media/products/3455947.jpg",
+      "plu": 3455947,
+      "promo": {
+        "id": 1152486145,
+        "date_begin": "2021-01-06",
+        "date_end": "2021-02-02",
+        "type": "",
+        "description": "",
+        "kind": "Z011",
+        "expired_at": 19
+      },
+      "current_prices": {
+        "price_reg__min": 469.99,
+        "price_promo__min": 399.99
+      },
+      "store_name": null
+    }
+  ]
+}
