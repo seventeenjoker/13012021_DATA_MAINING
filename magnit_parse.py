@@ -56,7 +56,7 @@ class MagnitParser:
         return bs4.BeautifulSoup(response.text, 'lxml')
 
     def get_time(self, s: str) -> list:
-        return [i.split()[1] + ' ' + i.split()[2].replace(i.split()[2], MONTHS[i.split()[2]]) + ' 2020' for i in s.strip
+        return [i.split()[1] + ' ' + i.split()[2].replace(i.split()[2], MONTHS[i.split()[2]]) + ' 2021' for i in s.strip
         ('\n').split('\n')]
 
     def run(self):
