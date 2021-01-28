@@ -65,7 +65,6 @@ class MagnitParser:
     def run(self):
         for product in self.parse(self.start_url):
             self.save(product)
-        pass
 
     def parse(self, url) -> dict:
         soup = self._get_soup(self._get_response(url))

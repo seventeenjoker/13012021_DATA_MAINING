@@ -33,6 +33,7 @@ Tag
 Не забываем закрывать сессию по завершению работы с ней
 """
 
+
 class ParseError(Exception):
     def __init__(self, text):
         self.text = text
