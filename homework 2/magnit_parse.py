@@ -101,7 +101,6 @@ class MagnitParser:
     def save(self, data):
         collection = self.data_base['magnit']
         collection.insert_one(data)
-        pass
 
 
 if __name__ == "__main__":
