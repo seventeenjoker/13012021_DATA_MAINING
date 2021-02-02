@@ -1,6 +1,6 @@
 import scrapy
 from scrapy.http import HtmlResponse
-from gb_parse.loaders import HhruVacancyLoader, HhruCompanyLoader
+from gb_parse.loaders import HhruVacancyLoader, HhruCompanyLoader, HhruAVacancyLoader
 
 
 class HhruSpider(scrapy.Spider):
@@ -17,6 +17,14 @@ class HhruSpider(scrapy.Spider):
 
     data_vac_xpath = {
         'vac_name': "//h1[@data-qa='vacancy-title']/text()",
+        'salary': "//p[@class='vacancy-salary']/span/text()",
+        'description': "//div[@class='vacancy-description']//text()",
+        "key_tags": '//div[@class="bloko-tag-list"]//span[@data-qa="bloko-tag__text"]/text()',
+        "company_url": '//a[@data-qa="vacancy-company-name"]/@href',
+    }
+
+    data_a_vac_xpath = {
+        'a_vac_name': "//h1[@data-qa='vacancy-title']/text()",
         'salary': "//p[@class='vacancy-salary']/span/text()",
         'description': "//div[@class='vacancy-description']//text()",
         "key_tags": '//div[@class="bloko-tag-list"]//span[@data-qa="bloko-tag__text"]/text()',
@@ -43,21 +51,32 @@ class HhruSpider(scrapy.Spider):
         company_links = response.xpath(self.xpath_query["company"])
         yield from self.gen_task(response, company_links, self.author_parse)
 
-    def vac_parse(self, response):
+    def parse_next(self, response: HtmlResponse):
+        pagination_links = response.xpath(self.xpath_query["pagination"])
+        yield from self.gen_task(response, pagination_links, self.parse)
+        author_vac_links = response.xpath(self.xpath_query["vacancy"])
+        yield from self.gen_task(response, author_vac_links, self.a_vac_parse)
+
+    def vac_parse(self, response:HtmlResponse):
         loader = HhruVacancyLoader(response=response)
         for key, selector in self.data_vac_xpath.items():
             loader.add_xpath(key, selector)
         loader.add_value('url', response.url)
         yield loader.load_item()
 
-    def author_parse(self, response):
+    def author_parse(self, response:HtmlResponse):
         loader = HhruCompanyLoader(response=response)
         for key, selector in self.data_author_xpath.items():
             loader.add_xpath(key, selector)
         loader.add_value('url', response.url)
         yield loader.load_item()
-        # companys_vac_links = response.xpath(self.xpath_query["company_vacancy"])
-        # yield from self.gen_task(response, companys_vac_links, self.author_vac_parse)
         if response.xpath(self.xpath_query['company_vacancy']).get():
             companys_vac = response.xpath(self.xpath_query["company_vacancy"])
-            yield from self.gen_task(response, companys_vac, self.parse)
+            yield from self.gen_task(response, companys_vac, self.parse_next)
+
+    def a_vac_parse(self, response:HtmlResponse):
+        loader = HhruAVacancyLoader(response=response)
+        for key, selector in self.data_a_vac_xpath.items():
+            loader.add_xpath(key, selector)
+        loader.add_value('url', response.url)
+        yield loader.load_item()

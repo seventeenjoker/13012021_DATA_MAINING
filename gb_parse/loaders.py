@@ -2,7 +2,7 @@ import re
 from urllib.parse import urljoin
 from scrapy import Selector
 from scrapy.loader import ItemLoader
-from .items import AutoyoulaItem, HhruVacancyItem, HHruCompanyItem
+from .items import AutoyoulaItem, HhruVacancyItem, HhruAVacancyItem, HHruCompanyItem
 from itemloaders.processors import TakeFirst, MapCompose, Join
 
 
@@ -62,6 +62,21 @@ class HhruVacancyLoader(ItemLoader):
     key_tags_out = Join()
     company_url_in = MapCompose(lambda a_com: urljoin("https://hh.ru/", a_com))
     company_url_out = TakeFirst()
+
+
+class HhruAVacancyLoader(ItemLoader):
+    default_item_class = HhruAVacancyItem
+    url_out = TakeFirst()
+    a_vac_name_out = TakeFirst()
+    salary_in = MapCompose(clear_unicode)
+    salary_out = Join()
+    description_in = MapCompose(vac_description)
+    description_out = Join()
+    key_tags_in = MapCompose(vac_description)
+    key_tags_out = Join()
+    company_url_in = MapCompose(lambda a_com: urljoin("https://hh.ru/", a_com))
+    company_url_out = TakeFirst()
+
 
 class HhruCompanyLoader(ItemLoader):
     default_item_class = HHruCompanyItem

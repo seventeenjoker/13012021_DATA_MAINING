@@ -16,6 +16,8 @@ class GbParsePipeline:
     def process_item(self, item, spider):
         if item.get('vac_name'):
             collection_name = 'vacancies'
+        elif item.get('a_vac_name'):
+            collection_name = 'employers_vacancies'
         else:
             collection_name = 'employers'
         collection = self.mongobase[spider.name][collection_name]

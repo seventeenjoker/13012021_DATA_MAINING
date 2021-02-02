@@ -29,6 +29,16 @@ class HhruVacancyItem(scrapy.Item):
     company_url = scrapy.Field()
 
 
+class HhruAVacancyItem(scrapy.Item):
+    _id = scrapy.Field()
+    url = scrapy.Field()
+    a_vac_name = scrapy.Field()
+    salary = scrapy.Field()
+    description = scrapy.Field()
+    key_tags = scrapy.Field()
+    company_url = scrapy.Field()
+
+
 class HHruCompanyItem(scrapy.Item):
     _id = scrapy.Field()
     url = scrapy.Field()
