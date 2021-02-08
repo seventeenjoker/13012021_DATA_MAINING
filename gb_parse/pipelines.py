@@ -4,22 +4,30 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 import os
 from dotenv import load_dotenv
-from pymongo import MongoClient
+import pymongo
+from scrapy import Request
+from scrapy.pipelines.images import ImagesPipeline
 
 
 class GbParsePipeline:
+    pass
+
+
+class SaveToMongo:
     def __init__(self):
-        load_dotenv("../.env")
-        data_base_url = os.getenv("DATA_BASE_URL")
-        self.mongobase = MongoClient(data_base_url)["gb_parse_13012021"]
+        client = pymongo.MongoClient()
+        self.db = client["gb_parse_13012021"]
 
     def process_item(self, item, spider):
-        if item.get('vac_name'):
-            collection_name = 'vacancies'
-        elif item.get('a_vac_name'):
-            collection_name = 'employers_vacancies'
-        else:
-            collection_name = 'employers'
-        collection = self.mongobase[spider.name][collection_name]
-        collection.insert_one(item)
+        self.db[spider.name].insert_one(item)
+        return item
+
+
+class GbImagePipeline(ImagesPipeline):
+    def get_media_requests(self, item, info):
+        yield Request(item._values['data']['display_url'])
+
+    def item_completed(self, results, item, info):
+        if results:
+            item['img'] = [itm[1] for itm in results]
         return item

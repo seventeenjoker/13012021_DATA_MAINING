@@ -46,3 +46,10 @@ class HHruCompanyItem(scrapy.Item):
     company_web = scrapy.Field()
     company_scope = scrapy.Field()
     company_description = scrapy.Field()
+
+
+class InstagramItem(scrapy.Item):
+    _id = scrapy.Field()
+    date_parse = scrapy.Field()
+    data = scrapy.Field()
+    img = scrapy.Field()
