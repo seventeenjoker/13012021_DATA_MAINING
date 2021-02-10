@@ -5,6 +5,7 @@ from gb_parse.loaders import HhruVacancyLoader, HhruCompanyLoader, HhruAVacancyL
 
 class HhruSpider(scrapy.Spider):
     name = 'hhru'
+    db_type = 'MONGO_HH'
     allowed_domains = ['hh.ru']
     start_urls = ['https://hh.ru/search/vacancy?schedule=remote&L_profession_id=0&area=113/']
 

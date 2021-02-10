@@ -3,6 +3,7 @@ from ..loaders import AutoyoulaLoader
 
 
 class AutoyoulaSpider(scrapy.Spider):
+    db_type = 'MONGO_YOULA'
     name = 'autoyoula'
     allowed_domains = ['auto.youla.ru']
     start_urls = ['https://auto.youla.ru/']

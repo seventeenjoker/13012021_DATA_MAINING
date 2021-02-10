@@ -68,7 +68,6 @@ IMAGES_STORE = 'images'
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'gb_parse.pipelines.GbParsePipeline': 100,
-   'gb_parse.pipelines.SaveToMongo': 400,
    'gb_parse.pipelines.GbImagePipeline': 300,
 
 }

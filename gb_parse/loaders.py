@@ -2,7 +2,7 @@ import re
 from urllib.parse import urljoin
 from scrapy import Selector
 from scrapy.loader import ItemLoader
-from .items import AutoyoulaItem, HhruVacancyItem, HhruAVacancyItem, HHruCompanyItem, InstagramItem
+from .items import AutoyoulaItem, HhruVacancyItem, HhruAVacancyItem, HHruCompanyItem
 from itemloaders.processors import TakeFirst, MapCompose, Join
 
 
